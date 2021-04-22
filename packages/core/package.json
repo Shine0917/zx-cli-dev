@@ -6,17 +6,19 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin": {
+    "zx-cli-dev": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "gitHead": "0902eb6555defe44106f2e0f52e0c0db984791cb"
 }
