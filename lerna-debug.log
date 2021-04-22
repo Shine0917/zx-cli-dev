@@ -1,0 +1,10 @@
+0 silly argv { _: [ 'create' ], lernaVersion: '4.0.0', '$0': 'lerna', name: 'core' }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/xzx/code/MyCode/zx-cli-dev/zx-cli-dev
+3 error Error: Command failed with exit code 1: git config --get user.name
+3 error     at makeError (/Users/xzx/code/MyCode/zx-cli-dev/zx-cli-dev/node_modules/execa/lib/error.js:59:11)
+3 error     at Function.module.exports.sync (/Users/xzx/code/MyCode/zx-cli-dev/zx-cli-dev/node_modules/execa/index.js:186:17)
+3 error     at Object.execSync (/Users/xzx/code/MyCode/zx-cli-dev/zx-cli-dev/node_modules/@lerna/child-process/index.js:39:16)
+3 error     at CreateCommand.gitConfig (/Users/xzx/code/MyCode/zx-cli-dev/zx-cli-dev/node_modules/@lerna/create/index.js:181:25)
+3 error     at CreateCommand.initialize (/Users/xzx/code/MyCode/zx-cli-dev/zx-cli-dev/node_modules/@lerna/create/index.js:103:46)
+3 error     at /Users/xzx/code/MyCode/zx-cli-dev/zx-cli-dev/node_modules/@lerna/command/index.js:274:24
