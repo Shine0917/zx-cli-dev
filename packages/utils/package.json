@@ -1,6 +1,6 @@
 {
   "name": "@zx-cli-dev/utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "zx-cli-dev utils",
   "author": "zx.xiao <xzxfirst@163.com>",
   "homepage": "",
@@ -10,7 +10,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "publishConfig": {
     "registry": "http://registry.npmjs.org/",
     "access": "public"
