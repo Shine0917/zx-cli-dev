@@ -8,4 +8,3 @@
 15 error     at updateRemote (/Users/xzx/code/MyCode/zx-cli-dev/zx-cli-dev/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
 15 error     at isBehindUpstream (/Users/xzx/code/MyCode/zx-cli-dev/zx-cli-dev/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
 15 error     at VersionCommand.initialize (/Users/xzx/code/MyCode/zx-cli-dev/zx-cli-dev/node_modules/@lerna/version/index.js:153:9)
-15 error     at /Users/xzx/code/MyCode/zx-cli-dev/zx-cli-dev/node_modules/@lerna/command/index.js:274:24
