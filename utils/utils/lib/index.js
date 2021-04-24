@@ -1,7 +1,8 @@
-'use strict';
+'use strict'
 
-module.exports = utils;
+module.exports = utils
 
-function utils() {
-    // TODO
+function utils () {
+  // TODO
+  console.log('utils :>> ')
 }
