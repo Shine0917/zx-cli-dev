@@ -23,5 +23,8 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "0902eb6555defe44106f2e0f52e0c0db984791cb"
+  "gitHead": "0902eb6555defe44106f2e0f52e0c0db984791cb",
+  "dependencies": {
+    "import-local": "^3.0.2"
+  }
 }
