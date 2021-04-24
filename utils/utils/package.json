@@ -10,11 +10,8 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/",
     "access": "public"
   },
   "scripts": {
