@@ -2,7 +2,8 @@
 
 module.exports = utils
 
-function utils () {
+function utils (a,b) {
   // TODO
-  console.log('utils :>> ')
+  console.log('utils :>> ', a+b)
+  console.log('test :>> ');
 }

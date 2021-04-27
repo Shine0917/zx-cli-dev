@@ -5,7 +5,7 @@
   "author": "zx.xiao <xzxfirst@163.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "lib/index.js",
   "bin": {
     "zx-cli-dev": "bin/index.js"
   },
@@ -24,7 +24,13 @@
   },
   "gitHead": "0902eb6555defe44106f2e0f52e0c0db984791cb",
   "dependencies": {
-    "@zx-cli-dev/utils": "^1.0.5",
-    "import-local": "^3.0.2"
+    "@zx-cli-dev/utils": "file:../../utils/utils",
+    "colors": "^1.4.0",
+    "import-local": "^3.0.2",
+    "npmlog": "^4.1.2",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
   }
 }
